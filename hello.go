@@ -1,10 +1,7 @@
 package cuesandbox
 
-import "rsc.io/quote/v3"
+import "rsc.io/quote"
 
 func Hello() string {
-	return quote.HelloV3()
-}
-func Proverb() string {
-	return quote.Concurrency()
+	return quote.Hello()
 }
