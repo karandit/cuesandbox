@@ -1,4 +1,4 @@
-package sandbox
+package cuesandbox
 
 import (
 	"rsc.io/quote/v3"

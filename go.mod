@@ -1,4 +1,4 @@
-module github.com/karandit/sandbox
+module github.com/karandit/cuesandbox
 
 go 1.13
 
