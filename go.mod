@@ -1,4 +1,4 @@
-module karandit.com/mayflower
+module github.com/karandit/sandbox
 
 go 1.13
 

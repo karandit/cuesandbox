@@ -1,4 +1,4 @@
-package hello
+package sandbox
 
 import (
 	"rsc.io/quote/v3"
