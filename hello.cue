@@ -1,4 +1,4 @@
 package cuesandbox
 
 
-lovely : "something"
+lovely : "somethingi_else"
