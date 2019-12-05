@@ -6,7 +6,12 @@ Region :: "us-east-1" | "us-east-2" | "us-west-1" | "us-west-2" | "ca-central-1"
 
 StorageType :: "standard" | "gp2" | "io1"
 
+_base_url :"git::git@github.com:karandit/cuesandbox.git//"
+_version : "?ref=v0.3.0"
+
 MySql :: {
+	source : "\(_base_url)mysql\(_version)"
+
 	aws_region :        Region
 	name :              string
 	instance_class :    string
@@ -17,6 +22,8 @@ MySql :: {
 }
 
 Consul :: {
+	source : "\(_base_url)consul\(_version)"
+
 	aws_region :    Region
 	cluster_name :  string
 	num_servers :   int
@@ -25,6 +32,8 @@ Consul :: {
 }
 
 AsgElb :: {
+	source : "\(_base_url)asgelb\(_version)"
+
 	aws_region :    Region
 	name :          string
 	instance_type : string
