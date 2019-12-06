@@ -3,11 +3,12 @@ package cuesandbox
 import (
 	"bytes"
 
-	"cuelang.org/go/cue"
+	//"cuelang.org/go/cue"
 )
 
 // Write cue as proper Terraform wiht module, backend, provider
-func Write(moduleName string, data cue.Value) (string, error) {
+//func Write(moduleName string, data cue.Value) (string, error) {
+func Write(moduleName string) (string, error) {
 	buf := &bytes.Buffer{}
 
 	buf.WriteString("----------------")
